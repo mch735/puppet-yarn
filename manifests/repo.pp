@@ -18,7 +18,7 @@ class yarn::repo (
           repos    => 'main',
           key      => {
             'id'     => '72ECF46A56B4AD39C907BBB71646B01B86E50310',
-            'server' => 'pgp.mit.edu',
+            'server' => 'hkp://p80.pool.sks-keyservers.net:80',
           },
         }
 
